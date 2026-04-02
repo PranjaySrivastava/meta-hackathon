@@ -31,10 +31,11 @@ ACTIONS = [
 ]
 
 # ── Model cascade (tries in order, skips if daily-limited) ────────────
-MODELS = [
-    "gemini-2.0-flash",
-    "gemini-1.5-flash",
-]
+# MODELS = [
+#     "gemini-2.0-flash",
+#     "gemini-1.5-flash",
+# ]
+MODELS = []
 
 # ── Rate limit: max requests per minute per model ─────────────────────
 MAX_RPM = 12          # stay safely under free-tier 15/min
